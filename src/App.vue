@@ -9,7 +9,7 @@
     </b-container>
     <b-container fluid>
       <b-row align-h="center" class="mt-5">
-          <b-form-input v-model="tipInput" class="w-50" >{{ tipInput }}</b-form-input>
+          <input class="w-50" placeholder="Tip Percentage %" >
       </b-row>
       <b-row align-h="center" class="mt-5">
           <b-btn @click="lower" variant="danger">Lower</b-btn>
@@ -18,7 +18,7 @@
     </b-container>
     <b-container fluid>
       <b-row align-h="center" class="mt-5">
-        <b-form-input v-model="billInput" class="w-50" placeholder="Bill Total $">{{ billInput }}</b-form-input>
+        <input v-model="billInput" class="w-50" placeholder="Bill Total $">
       </b-row>
       <b-row align-h="center" class="mt-5">
         <b-btn @click="showTotal" size="lg" variant="success">Total</b-btn>
