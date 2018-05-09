@@ -46,7 +46,7 @@ export default {
   data() {
     return {
       totalMsg: "",
-      tipInput: "20",
+      tipInput: "",
       billInput: ""
     };
   },
